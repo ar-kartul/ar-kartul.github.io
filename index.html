@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>J. Schwartz in 3D</title>
+    <title>Ar-card</title>
     <meta name="description" content="Textures - A-Frame School">
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-     <script src="https://unpkg.com/aframe-animation-component@3.2.1/dist/aframe-animation-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@3.2.1/dist/aframe-animation-component.min.js"></script>
     <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
     <script src="https://unpkg.com/aframe-outline@%5E1.1.0/build/aframe-outline.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-  <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Mono" media="all" />
+    <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Mono" media="all" />
     <link rel="stylesheet" type="text/css" href="style.css">
-
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-
-<script type="text/javascript">
-
-
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+    <script type="text/javascript">
     let checkExist = setInterval(function() {
       if (document.getElementById("arjsDebugUIContainer")) {
         let interface = document.getElementById("arjsDebugUIContainer");
@@ -29,15 +21,15 @@
       }
     }, 100);
       checkExist;
-
-  </script>
+    </script>
   </head>
+  
 <body style="margin : 0px; overflow: hidden;">
   <main class="main">
     <div id="splashScreen" class="AR-tip" style="display:none">
-      <p><strong>Hi there!</strong> <br> Once your camera loads, click "Start" and aim your device at the black square.
+      <p>Click "Start" and aim your device at the black square.
         <div class="instructions">
-          <a><img src="https://cdn.glitch.com/5a8c2940-8667-40d7-9b93-b9e8050d72d1%2FNewInstruction.png?1528856565282" /></a>
+          <a><img src="https://github.com/ar-kartul/ar-kartul.github.io/blob/master/img/Camera15.png" /></a>
         </div>
 
       </p>
