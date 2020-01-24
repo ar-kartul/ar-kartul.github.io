@@ -122,7 +122,7 @@ body {
 }
 
 .custom-button, .switch {
-  background-color: #0078ff;
+  background-color: linear-gradient(125.36deg, #E30000 0%, #A40000 100%);
   font-weight: 900;
   font-size: 20px
 }
